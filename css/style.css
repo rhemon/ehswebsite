@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.header {
+    background-color:
+    margin: 0;
+    border: 0;
+    width: 100%;
+    padding: 10px 60px;
+}
+.logo, .name {
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+.header #top-right-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.social {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+}
+.social a {
+    margin: 5px;
+}
+.translate {
+    margin: 10px;
+}
+.name {
+    padding-left: 20px;
+}
+.name h3{
+    padding-top: 30px;
+    font-size: 2em;
+}
+.navbar {
+    background-color: #276232;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+.dropdown-menu{
+    background-color: #276232;
+}
+
+.navbar div .nav li a {
+    color: white;
+}
+.navbar div .nav li a:hover {
+    color: white;
+}
+.navbar div .nav li a:active {
+    color: white;
+}
+.navbar div .nav li a:visited {
+    color: white;
+}
+.navbar div .nav li a:link {
+    color: white;
+}
+
+.navbar div .nav li a {
+    color: white;
+}
+.navbar div .nav .dropdown ul li a:hover {
+    color: white;
+}
+.navbar div .nav .dropdown ul li a:active {
+    color: white;
+}
+.navbar div .nav .dropdown ul li a:visited {
+    color: white;
+}
+.navbar div .nav .dropdown ul li a:link {
+    color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar div .navbar-header .navbar-brand {
+    color: white;
+}
+#home {
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+#home img {
+    min-width: 100%;
+    max-width: 100%;
+    height: 400px;
+}
+.carousel-caption {
+    /*max-width: 100%;*/
+    width: 400px;
+    height: 250px;
+    left: 50px;
+    background-color: #276232;
+    padding: 15px;
+    position: absolute;
+    top: 130px;
+    color: #FAFAFA;
+    /*opacity: 0.7;
+    filter: alpha(opacity=70);*/
+}
+.carousel-caption h3{
+    text-align: left;
+    font-size: 42px;
+}
+.carousel-caption p {
+    text-align: left;
+    font-size: 28px;
+    font-size: 1em;
+}
+.carousel-caption a {
+    color: #EF5350;
+}
+/*.carousel-caption h3 {
+
+    width: 100vw;
+    background-color: red;
+}*/
