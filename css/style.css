@@ -4,6 +4,8 @@
     border: 0;
 }
 #home {
+    margin: 0;
+    border: 0;
     max-width: 100%;
     min-width: 100%;
     width: 100vw;
@@ -12,17 +14,60 @@
     height: 100vh;
     overflow: hidden;
 }
+.container {
+    width: 100% !important;
+    height: 100%;
+    marign: 0;
+    border: 0;
+    padding: 0;
+}
+.row {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100% !important;
+    height: 100%;
+    marign: 0;
+    border: 0;
+    padding: 0;
+}
 #img-slider {
+    margin: 0;
+    border: 0;
+    padding: 0;
     height: 75vh;
     width: 100%;
 }
 #myCarousel {
+    margin: 0;
+    border: 0;
     height: 100%;
 }
 .carousel-inner {
+    margin: 0;
+    border: 0;
     height: 100%;
 }
 .carousel-inner .item {
+    margin: 0;
+    border: 0;
+}
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #4FC3F7;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.carousel-indicators .active{
+
+    width: 13px;
+    height: 13px;
+    background-color: #4FC3F7;
+}
+.carousel-inner .item {
+    margin: 0;
+    border: 0;
     width: 100%;
     height: 100%;
     -webkit-background-size: cover;
@@ -31,7 +76,7 @@
     background-size: cover;
 }
 #myCarousel .carousel-inner .one {
-    background: url("../media/hg1.jpg") no-repeat left top fixed;
+    background: url("../media/1.jpg") no-repeat left top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,7 +84,7 @@
 }
 
 .two {
-    background: url("../media/hg2.jpg") no-repeat left top fixed;
+    background: url("../media/2.jpg") no-repeat left top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +93,7 @@
 
 
 .three {
-    background: url("../media/hg3.jpg") no-repeat left top fixed;
+    background: url("../media/3.jpg") no-repeat left top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,7 +101,7 @@
 }
 
 .four {
-    background: url("../media/hg4.jpg") no-repeat left top fixed;
+    background: url("../media/4.jpg") no-repeat left top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -145,4 +190,58 @@
 }
 .navbar div .navbar-header .navbar-brand {
     color: white;
+}
+#welcome {
+    margin: 0;
+    padding: 100px;
+    /*border-image: url("../media/triangle.png") 7 round;
+    border: 10px solid transparent;*/
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    background: #276232;
+    position: relative;
+}
+#welcome .container:before, #welcome .container:after {
+    content: "";
+    display: table;
+}
+#welcome .container:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    height: 4px;
+    right: 0;
+    left: 0;
+    z-index: 200;
+    display: inline-block;
+    background: url("../media/triangle.png") repeat-x;
+}
+#welcome .container:after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    height: 4px;
+    left: 0;
+    right: 0;
+    z-index: 25;
+    display: inline-block;
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+    background: url("../media/triangle.png") repeat-x;
+}
+#welcome .container .row h1 {
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    font-size: 42px;
+}
+#welcome p {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    border: 0;
 }
