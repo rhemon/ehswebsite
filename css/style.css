@@ -374,3 +374,46 @@
     position: absolute;
     bottom: 10px;
 }
+
+#location {
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+#location .container #map {
+ height: 400px;
+ width: 100%;
+ border-top: 3px solid #276232;
+}
+
+#footer {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FAFAFA;
+    width: 100%;
+    max-width: 100%;
+    background: #276232;
+}
+#footer .container {
+    margin: 0;
+    border: 0;
+}
+#footer .container:before {
+    content: "";
+    display: table;
+}
+#footer .container:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    height: 4px;
+    right: 0;
+    left: 0;
+    display: inline-block;
+    background: url("../media/triangle.png") repeat-x;
+}
