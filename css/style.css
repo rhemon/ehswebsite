@@ -137,24 +137,38 @@
     padding-top: 30px;
     font-size: 2em;
 }
+.navbar-collapse .nav {
+    background-color: #276232;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active     >     a:focus {
+    background-color: #276232 !important;
+    background-image: linear-gradient(to bottom, #276232, #276232) !important;
+    background-repeat: repeat-x !important;
+    color: #FAFAFA;
+    outline: 0 none;
+    text-decoration: none;
+}
 .navbar {
-    height: 5vh;
+    /*height: 5vh;*/
     background-color: #276232;
     margin: 0;
     border: 0;
     border-radius: 0;
 }
-.navbar li:hover {
-    background: #4CAF50;
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
 }
 .dropdown-menu {
     background-color: #276232;
 }
 .dropdown-menu > li:hover {
-    background: #4CAF50;
+    color: white;
 }
 .dropdown-menu > li > a:hover {
-    background: none;
+    color: white;
 }
 .navbar div .nav li a {
     color: #FAFAFA;
@@ -185,6 +199,10 @@
 }
 .navbar div .nav .dropdown ul li a:link {
     color: #FAFAFA;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   background-color:#276232;
+   color: #FAFAFA;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FAFAFA;
