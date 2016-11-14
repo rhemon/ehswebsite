@@ -13,3 +13,20 @@ $(window).scroll(function() {
         $('#img-slider').height('75vh');
     }
 });
+
+if ($(window).width() < 767) {
+    $(".dropdown-toggle").attr('data-toggle', 'dropdown');
+    console.log("resized");
+}
+if ($(window).width() > 767) {
+    $(".dropdown-toggle").attr('data-toggle', '');
+}
+$(window).resize(function() {
+    if ($(window).width() < 767) {
+        $(".dropdown-toggle").attr('data-toggle', 'dropdown');
+        console.log("resized");
+    }
+    if ($(window).width() > 767) {
+        $(".dropdown-toggle").attr('data-toggle', '');
+    }
+});
