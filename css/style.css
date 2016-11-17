@@ -208,7 +208,9 @@
 }*/
 #welcome {
     margin: 0;
-    padding: 4%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /*border-image: url("../media/triangle.png") 7 round;
     border: 10px solid transparent;*/
     text-align: center;
@@ -247,11 +249,15 @@
     transform: scale(1, -1);
     background: url("../media/triangle.png") repeat-x;
 }
-#welcome .container .row h1 {
+#welcome .container h1 {
     padding: 20px;
     margin: 0;
     border: 0;
     font-size: 42px;
+}
+
+#welcome .container{
+    text-align: center;
 }
 #welcome p {
     padding: 20px;
