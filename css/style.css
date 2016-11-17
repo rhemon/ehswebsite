@@ -121,7 +121,7 @@
 }
 .social {
     position: absolute;
-    top: 90px;
+    top: 15vh;
     right: 40px;
 }
 .social a {
@@ -137,32 +137,25 @@
     padding-top: 30px;
     font-size: 2em;
 }
-.navbar-collapse .nav {
+/*.navbar-collapse .nav {
     background-color: #276232;
-}
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
-    background-color: #276232 !important;
-    background-image: linear-gradient(to bottom, #276232, #276232) !important;
-    background-repeat: repeat-x !important;
-    color: #FAFAFA;
-    outline: 0 none;
-    text-decoration: none;
-}
+}*/
 .navbar {
-    background-color: #276232;
+    /*background-color: #276232;*/
     margin: 0;
     border: 0;
     border-radius: 0;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     ul.nav li.dropdown:hover>ul.dropdown-menu {
         marign: 0;
         border: 0;
         display: block;
     }
 }
+/*
 .dropdown-menu {
-    background-color: #276232;
+    /*background-color: #276232;
 }
 .navbar-nav>li>.dropdown-menu {
     background-color: #276232;
@@ -212,7 +205,7 @@
 }
 .navbar div .navbar-header .navbar-brand {
     color: #FAFAFA;
-}
+}*/
 #welcome {
     margin: 0;
     padding: 4%;
@@ -273,7 +266,7 @@
     border: 0;
     padding: 4%;
 }
-#nee .container .row #news .news-body {
+#nee .container .nrow #news .news-body {
     border: 0;
     background: url("../media/1.jpg") no-repeat left top;
     -webkit-background-size: cover;
@@ -282,7 +275,7 @@
     background-size: cover;
     color: #FAFAFA;
 }
-#nee .container .row #news .news-body:hover {
+#nee .container .nrow #news .news-body:hover {
     background: linear-gradient(rgba(15, 38, 20, 0.5), rgba(15, 38, 20, 0.5)), url("../media/1.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -296,6 +289,7 @@
     height: 40px;
     text-align: left;
     font-size: 20px;
+    font-weight: bold;
 }
 #news .news-body {
     height: 320px;
@@ -324,6 +318,7 @@
     height: 40px;
     text-align: left;
     font-size: 20px;
+    font-weight: bold;
 }
 #events {
     height: 360px;
@@ -385,6 +380,7 @@
     height: 360px;
 }
 #eca .header {
+    font-weight: bold;
     height: 40px;
     text-align: left;
     font-size: 20px;
@@ -392,7 +388,7 @@
 #eca .event-body {
     position: relative;
     height: 320px;
-    background: linear-gradient(rgba(12, 185, 246, 0.4), rgba(12, 185, 246, 0.4)), url("../media/2.jpg") no-repeat left top;
+    background: url("../media/2.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -444,4 +440,154 @@
     left: 0;
     display: inline-block;
     background: url("../media/triangle.png") repeat-x;
+}
+
+/** Mobile Desgin Starts here **/
+@media only screen and (max-width: 767px){
+    #header {
+        height: 100%;
+    }
+
+    #home {
+        height: 100%;
+    }
+    .social {
+        position:absolute;
+        top: 5px;
+        left: 5px;
+    }
+    #school {
+        positon: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .logo, .name {
+        float : none;
+        padding: 0;
+        margin: 0;
+    }
+    .logo img {
+        width: 67px;
+        height: auto;
+    }
+    .logo img, .name h3 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .name {
+        vertical-align: middle;
+        text-align: center;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    .name h3{
+        border: 0;
+        margin: 0;
+        padding: 10px;
+        font-size: 24px;
+    }
+    .clearfix {
+        clear: none;
+    }
+    #school {
+        margin-top: 50px;
+    }
+    #school div {
+        display: block;
+    }
+    #img-slider,#img-slider div {
+        display: none;
+        width: 0;
+        height: 0;
+        margin: 0;
+        border: 0;
+    }
+    #nee {
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #nee .container {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #nee .container .nrow {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #news {
+        margin: 10px 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #news .header{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #news .news-body {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #news .news-body .news-holder {
+        margin: 0;
+        border: 0;
+        padding: 20px;
+        width: 100%;
+    }
+    #events {
+        margin: 20px 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #events .header {
+        margin: 5px 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    #events .event-body {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #events .event-body .event-link {
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+    #eca {
+            margin: 20px 0;
+            border: 0;
+            padding: 0;
+            width: 100%;
+    }
+    #eca .header {
+        margin: 5px 0;
+        border: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    #eca .event-body {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
 }
