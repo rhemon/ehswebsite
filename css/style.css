@@ -219,54 +219,11 @@
     border: 0;
     padding: 4%;
 }
-#nee .container .nrow #news .news-body {
-    border: 0;
-    background: url("../media/1.jpg") no-repeat left top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #FAFAFA;
-}
-#nee .container .nrow #news .news-body:hover {
-    background: linear-gradient(rgba(15, 38, 20, 0.5), rgba(15, 38, 20, 0.5)), url("../media/1.jpg") no-repeat left top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#news {
+
+#facebook {
     height: 360px;
 }
-#news .header {
-    height: 40px;
-    text-align: left;
-    font-size: 20px;
-    font-weight: bold;
-}
-#news .news-body {
-    height: 320px;
-}
-#news-holder {
-    padding-top: 190px;
-    height: 130px;
-}
-#news-holder .date {
-    padding: 10px;
-}
-#news-holder .date h4 {
-    background: lightgreen;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 10px;
-    font-size: 24px;
-}
-#news-holder .news {
-    padding: 20px;
-}
-#news-holder .news p {
-    font-size: 18px;
-}
+
 #events .header {
     height: 40px;
     text-align: left;
@@ -395,11 +352,6 @@
     background: url("../media/triangle.png") repeat-x;
 }
 
-#social-pages {
-    margin: 0;
-    border: 0;
-    padding: 100px;
-}
 
 /** Mobile Desgin Starts here **/
 @media only screen and (max-width: 767px){
@@ -480,31 +432,13 @@
         padding: 0;
         width: 100%;
     }
-    #news {
+    #facebook {
         margin: 10px 0;
         border: 0;
         padding: 0;
         width: 100%;
     }
-    #news .header{
-        margin: 0;
-        border: 0;
-        padding: 0;
-        width: 100%;
-        text-align: center;
-    }
-    #news .news-body {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        width: 100%;
-    }
-    #news .news-body .news-holder {
-        margin: 0;
-        border: 0;
-        padding: 20px;
-        width: 100%;
-    }
+
     #events {
         margin: 20px 0;
         border: 0;
