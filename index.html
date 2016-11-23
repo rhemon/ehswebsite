@@ -15,13 +15,16 @@
 
 <body>
     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div id="home" style="margin:0; border:0;">
         <div class="container">
             <div id="header" style="margin:0; border:0;">
@@ -43,20 +46,21 @@
                 </div>
                 <div class="social">
                     <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/earthouseschool">
-                      <span class="fa fa-twitter"></span>
+                        <span class="fa fa-twitter"></span>
                     </a>
                     <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Earthouseschool/">
-                      <span class="fa fa-facebook"></span>
+                        <span class="fa fa-facebook"></span>
                     </a>
                     <a class="btn btn-social-icon btn-google" href="https://plus.google.com/+EarthHouseSchool">
-                      <span class="fa fa-google"></span>
+                        <span class="fa fa-google"></span>
                     </a>
                 </div>
 
                 <div id="school">
                     <div class="logo"><img class="img-responsive" src="school_logo.jpg" /></div>
-                <div class="name">
-                    <h3 class="notranslate">Earth House Alternative School</h3></div></div>
+                    <div class="name">
+                        <h3 class="notranslate">Earth House Alternative School</h3></div>
+                </div>
                 <div class="clearfix"></div>
             </div>
             <nav class="navbar navbar-default" role="navigation">
@@ -204,17 +208,16 @@
     <div id="welcome">
         <div class="container">
             <div class="row">
-            <div class="col-sm-6">
-                <h1>We've got what you need!</h1>
-                <p>
-                    Earthouse Alternative School, Dhanmondi, is a private venture undertaken by two experienced educationalists in a new and exciting model. Children will be following the Edexcel International Primary Curriculum through practical projects using specially
-                    designed live garden lab, technology lab, craft lab and academic learning center.
-                </p>
-            </div>
-            <div class="col-sm-6">
-                <iframe src="//www.youtube.com/embed/W7qWa52k-nE"
-                width="100%" height="315" frameborder="0" allowfullscreen></iframe>
-            </div>
+                <div class="col-sm-6">
+                    <h1>We've got what you need!</h1>
+                    <p>
+                        Earthouse Alternative School, Dhanmondi, is a private venture undertaken by two experienced educationalists in a new and exciting model. Children will be following the Edexcel International Primary Curriculum through practical projects using specially
+                        designed live garden lab, technology lab, craft lab and academic learning center.
+                    </p>
+                </div>
+                <div class="col-sm-6" id="youtube">
+                    <iframe src="//www.youtube.com/embed/W7qWa52k-nE" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>
@@ -223,7 +226,9 @@
         <div class="container">
             <div class="nrow">
                 <div id="facebook" class="col-sm-4 col-md-4">
-<div class="fb-page" data-href="https://www.facebook.com/Earthouseschool/" data-tabs="timeline" data-height="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Earthouseschool/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Earthouseschool/">Earth House Alternative School</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/Earthouseschool/" data-tabs="timeline" data-height="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                        <blockquote cite="https://www.facebook.com/Earthouseschool/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Earthouseschool/">Earth House Alternative School</a></blockquote>
+                    </div>
                 </div>
                 <div id="events" class="col-sm-4 col-md-4">
                     <!-- <div> -->
@@ -271,12 +276,14 @@
                     </div>
                 </div>
                 <div id="eca" class="col-sm-4 col-md-4">
-                    <a class="twitter-timeline" data-height="360" data-theme="light" href="https://twitter.com/earthouseschool">Tweets by earthouseschool</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <a class="twitter-timeline" data-height="360" data-theme="light" href="https://twitter.com/earthouseschool">Tweets by earthouseschool</a>
+                    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
         </div>
     </div>
-</div></div>
+    </div>
+    </div>
 
     <div id="location">
         <div class="container">
