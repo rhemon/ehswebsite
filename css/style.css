@@ -295,22 +295,6 @@
     text-align: left;
     font-size: 20px;
 }
-#eca .event-body {
-    position: relative;
-    height: 320px;
-    background: url("../media/2.jpg") no-repeat left top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-#eca .event-body p {
-    position: absolute;
-    bottom: 10px;
-    font-size: 24px;
-}
 #location {
     margin: 0;
     border: 0;
@@ -468,19 +452,5 @@
             border: 0;
             padding: 0;
             width: 100%;
-    }
-    #eca .header {
-        margin: 5px 0;
-        border: 0;
-        padding: 0;
-        text-align: center;
-        width: 100%;
-    }
-    #eca .event-body {
-        margin: 0;
-        border: 0;
-        padding: 0;
-        text-align: center;
-        width: 100%;
     }
 }
