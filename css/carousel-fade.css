@@ -8,17 +8,21 @@
 }
 .carousel-fade .carousel-inner .active {
   opacity: 1;
+  transition-duration: 2s;
 }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
+  transition-duration: 2s;
   z-index: 1;
 }
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
+  transition-duration: 2s;
 }
 .carousel-fade .carousel-control {
   z-index: 2;
+  transition-duration: 2s;
 }
