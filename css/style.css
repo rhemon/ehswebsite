@@ -153,59 +153,6 @@
         display: block;
     }
 }
-/*
-.dropdown-menu {
-    /*background-color: #276232;
-}
-.navbar-nav>li>.dropdown-menu {
-    background-color: #276232;
-}
-.dropdown-menu>li:hover {
-    color: white;
-}
-.dropdown-menu>li>a:hover {
-    color: white;
-}
-.navbar div .nav li a {
-    color: #FAFAFA;
-}
-.navbar div .nav li a:hover {
-    color: #FAFAFA;
-}
-.navbar div .nav li a:active {
-    color: #FAFAFA;
-}
-.navbar div .nav li a:visited {
-    color: #FAFAFA;
-}
-.navbar div .nav li a:link {
-    color: #FAFAFA;
-}
-.navbar div .nav li a {
-    color: #FAFAFA;
-}
-.navbar div .nav .dropdown ul li a:hover {
-    color: #FAFAFA;
-}
-.navbar div .nav .dropdown ul li a:active {
-    color: #FAFAFA;
-}
-.navbar div .nav .dropdown ul li a:visited {
-    color: #FAFAFA;
-}
-.navbar div .nav .dropdown ul li a:link {
-    color: #FAFAFA;
-}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-    background-color: #276232;
-    color: #FAFAFA;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #FAFAFA;
-}
-.navbar div .navbar-header .navbar-brand {
-    color: #FAFAFA;
-}*/
 #welcome {
     margin: 0;
     padding: 20px;
@@ -213,7 +160,7 @@
     padding-bottom: 50px;
     /*border-image: url("../media/triangle.png") 7 round;
     border: 10px solid transparent;*/
-    text-align: center;
+    /*text-align: center;*/
     color: #FAFAFA;
     width: 100%;
     max-width: 100%;
@@ -257,11 +204,11 @@
 }
 
 #welcome .container{
-    text-align: center;
+    /*text-align: center;*/
 }
 #welcome p {
     padding: 20px;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     margin: 0;
     border: 0;
@@ -446,6 +393,12 @@
     left: 0;
     display: inline-block;
     background: url("../media/triangle.png") repeat-x;
+}
+
+#social-pages {
+    margin: 0;
+    border: 0;
+    padding: 100px;
 }
 
 /** Mobile Desgin Starts here **/

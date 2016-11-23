@@ -12,6 +12,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div id="home" style="margin:0; border:0;">
         <div class="container">
             <div id="header" style="margin:0; border:0;">
@@ -187,13 +195,19 @@
 
     <div id="welcome">
         <div class="container">
-            <!-- <div class="row"> -->
+            <div class="row">
+            <div class="col-sm-6">
                 <h1>We've got what you need!</h1>
                 <p>
                     Earthouse Alternative School, Dhanmondi, is a private venture undertaken by two experienced educationalists in a new and exciting model. Children will be following the Edexcel International Primary Curriculum through practical projects using specially
                     designed live garden lab, technology lab, craft lab and academic learning center.
                 </p>
-            <!-- </div> -->
+            </div>
+            <div class="col-sm-6">
+                <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
+                width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </div>
         </div>
     </div>
     </div>
@@ -277,6 +291,16 @@
             </div>
         </div>
     </div>
+    <div class="social-pages">
+        <div class="container"><div class="row">
+        <div class="col-sm-6">
+        <div class="fb-page" data-href="https://www.facebook.com/Earthouseschool/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Earthouseschool/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Earthouseschool/">Earth House Alternative School</a></blockquote></div>
+        </div>
+        <div class="col-sm-6">
+        </div>
+    </dvi></div>
+    </div>
+
     <div id="location">
         <div class="container">
             <div id="map"></div>
