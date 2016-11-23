@@ -349,7 +349,7 @@
     .social {
         position:absolute;
         top: 5px;
-        left: 5px;
+        left: 9px;
     }
     #school {
         positon: relative;
@@ -395,7 +395,21 @@
     #welcome {
         overflow-x: hidden;
     }
+    #welcome h1 {
+        font-size: 32px;
+    }
+    #welcome p {
+        font-size: 14px;
+    }
     #welcome #youtube {
+        max-width: 100%;
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    #welcome #youtube iframe {
+        max-width: 100%;
         margin: 0;
         border: 0;
         width: 100%;
@@ -454,6 +468,7 @@
     #events .event-body .event-link {
         margin: 0;
         border: 0;
+        padding: 5px;
         width: 100%;
     }
     #eca {
