@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#header {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 20vh;
+    padding: 5px 30px;
+}
+.logo, .name {
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+#header #top-right-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.social {
+    position: absolute;
+    top: 10vh;
+    right: 30px;
+}
+.social a {
+    margin: 5px;
+}
+.translate {
+    margin: 10px;
+}
+.name {
+    padding-left: 20px;
+}
+.name h3 {
+    padding-top: 30px;
+    font-size: 2em;
+}
+.navbar {
+    /*background-color: #276232;*/
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+}
+@media (min-width: 768px) {
+    ul.nav li.dropdown:hover>ul.dropdown-menu {
+        marign: 0;
+        border: 0;
+        display: block;
+    }
+}
+#footer {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FAFAFA;
+    width: 100%;
+    max-width: 100%;
+    background: #276232;
+}
+#footer .container {
+    margin: 0;
+    border: 0;
+}
+#footer .container:before {
+    content: "";
+    display: table;
+}
+#footer .container:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    height: 4px;
+    right: 0;
+    left: 0;
+    display: inline-block;
+    background: url("../media/triangle.png") repeat-x;
+}
+
+@media only screen and (max-width: 767px){
+    #header {
+        height: 100%;
+    }
+
+    #home {
+        height: 100%;
+    }
+    .social {
+        position:absolute;
+        top: 5px;
+        left: 9px;
+    }
+    #school {
+        positon: relative;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .logo, .name {
+        float : none;
+        padding: 0;
+        margin: 0;
+    }
+    .logo img {
+        width: 67px;
+        height: auto;
+    }
+    .logo img, .name h3 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .name {
+        vertical-align: middle;
+        text-align: center;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    .name h3{
+        border: 0;
+        margin: 0;
+        padding: 10px;
+        font-size: 24px;
+    }
+    .clearfix {
+        clear: none;
+    }
+    #school {
+        margin-top: 50px;
+    }
+    #school div {
+        display: block;
+    }
+}
