@@ -1,5 +1,5 @@
 $('.carousel').carousel({
-    interval: 5000,
+    interval: 7000,
     pause: null
 });
 var stickyNavTop = $('.navbar').offset().top;
