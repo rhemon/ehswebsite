@@ -69,28 +69,28 @@
     background-size: cover;
 }
 #myCarousel .carousel-inner .one {
-    background: url("../media/1.jpg") no-repeat left top fixed;
+    background: url("../media/1.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .two {
-    background: url("../media/2.jpg") no-repeat left top fixed;
+    background: url("../media/2.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .three {
-    background: url("../media/3.jpg") no-repeat left top fixed;
+    background: url("../media/3.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .four {
-    background: url("../media/4.jpg") no-repeat left top fixed;
+    background: url("../media/4.jpg") no-repeat left top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
