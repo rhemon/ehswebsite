@@ -5,7 +5,7 @@ http://stackoverflow.com/questions/26770055/bootstrap-carousel-fade-no-longer-wo
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: 4s;
+  transition-duration: 2s;
   transition-timing-function:linear;
 }
 
