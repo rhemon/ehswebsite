@@ -250,8 +250,8 @@
 /** Mobile Desgin Starts here **/
 
 @media only screen and (max-width: 767px) {
-    #welcome {
-        overflow-x: hidden;
+    #home {
+        height: 100%;
     }
     #welcome h1 {
         text-align: center;
