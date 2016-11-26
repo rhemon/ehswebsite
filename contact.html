@@ -4,11 +4,38 @@
 <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
 
-    <title> EHS - Head's Welcome </title>
+    <title> EHS - Contact </title>
     <link rel="stylesheet" href="css/common-style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
+    <style>
+    #body h3{
+        padding: 0 30px;
+    }
+    #location .container {
+        padding: 0;
+        margin: 0;
+        border:0;
+        width: 100%;
+    }
+    #location {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+    }
+    #location .container #map {
+        height: 400px;
+        max-width: 100%;
+        width: 100%;
+        border-top: 3px solid #276232;
+    }
+    .col-sm-6{
+        padding: 30px;
+    }
+
+    </style>
 
 </head>
 
@@ -118,6 +145,32 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <div id="body">
+        <div class="container">
+            <div class="row">
+                <h3>Contact Us</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <strong>Earth House Alternative School</strong><br/>
+                    Road 11A,<br/>
+                    Satmasjid Road,<br/>
+                    Dhanmondi,<br/>
+                    Dhaka,<br/>
+                    Bangladesh
+                </div>
+                <div class="col-sm-6">
+                    <strong>Email:</strong> <a href="mailto:admin@earthouseschool.org">admin@earthouseschoo.org</a><br/>
+                    <strong>Tel:</stron> 01818181818, 01010101010
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="location">
+        <div class="container">
+            <div id="map"></div>
+        </div>
+    </div>
     <div id="footer">
         <div class="container">
             <div class="row">
@@ -127,7 +180,30 @@
             </div>
         </div>
     </div>
-
+    <script>
+        function initMap() {
+            var uluru = {
+                lat: 23.746720,
+                lng: 90.370777
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17, // set the zoom level manually
+                zoomControl: false,
+                scaleControl: false,
+                scrollwheel: false,
+                disableDoubleClickZoom: true,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUGAng88u0rCE6JvrtXmVcVLMRKIme_UM&callback=initMap">
+        //key=YOUR_API_KEY&
+        //
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/common-script.js"></script>
