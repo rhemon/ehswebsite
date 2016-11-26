@@ -3,13 +3,27 @@
 
 <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <title>EHS - Calendar</title>
+
+    <title> EHS - Head's Welcome </title>
     <link rel="stylesheet" href="css/common-style.css">
-    <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
+    <style>
+        #body {}
 
+        #body .container .row a div {
+            max-width: 100%;
+            background-color: lightgrey;
+            width: 100%;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        #body .container .row a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -118,9 +132,32 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div id="calendar">
-        <iframe src="https://calendar.google.com/calendar/embed?src=earthouseschool.org_ipjb4f09j2cr27u77ilsu3ua8g%40group.calendar.google.com&ctz=Asia/Dhaka" style="border: 0" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
-    </div>
+    <div id="body"><div class="container"><div class="row">
+        <h1 style="text-align:center;">Events</h1>
+
+            <a href="timeline.html"><div>
+                <h3>Timeline</h3>
+                <br/>
+                <p> Some Description </p>
+                <br/>
+            </div></a>
+
+
+            <a href="schoolschedule.html"><div>
+                <h3>School's Schedule</h3>
+                <br/>
+                <p> Some Description </p>
+                <br/>
+            </div></a>
+
+            <a href="upcomingtrips.html"><div>
+                <h3>Upcoming Trips</h3>
+                <br/>
+                <p> Some Description </p>
+                <br/>
+            </div></a>
+
+    </div></div></div>
     <div id="footer">
         <div class="container">
             <div class="row">
